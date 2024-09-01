@@ -129,7 +129,7 @@ if(isset($_POST['Buy'])){
 
        $stock_left = intval($stock_val) - intval($buy_PQUANT);
 
-       mysqli_query($con, "UPDATE `products` SET `Stock`='$stock_left' WHERE `Name`='$buy_PNAME'");
+       mysqli_query($con, "UPDATE `Products` SET `Stock`='$stock_left' WHERE `Name`='$buy_PNAME'");
     }
 
     mysqli_query($con, "INSERT INTO `orders`(`Date`, `Time`, `User`,`BoughtItemsArray`, `Total`) VALUES ('$date','$time','$USER','$cart','$total')");
