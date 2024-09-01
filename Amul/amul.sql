@@ -42,10 +42,10 @@ INSERT INTO `alogin` (`ADMIN_ID`, `Password`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `login`
+-- Table structure for table `LOGIN`
 --
 
-CREATE TABLE `login` (
+CREATE TABLE `LOGIN` (
   `Username` varchar(25) NOT NULL,
   `Password` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
