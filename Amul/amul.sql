@@ -18,25 +18,25 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `amul`
+-- Database: `Amul`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `alogin`
+-- Table structure for table `ALOGIN`
 --
 
-CREATE TABLE `alogin` (
+CREATE TABLE `ALOGIN` (
   `ADMIN_ID` varchar(16) NOT NULL,
   `Password` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `alogin`
+-- Dumping data for table `ALOGIN`
 --
 
-INSERT INTO `alogin` (`ADMIN_ID`, `Password`) VALUES
+INSERT INTO `ALOGIN` (`ADMIN_ID`, `Password`) VALUES
 ('AdminYash', '$2y$10$QqSGOi6ltCsI4KbV097qwuUc91TfaKsmyq/60YYjAymox8ASilP9y');
 
 -- --------------------------------------------------------
@@ -109,9 +109,9 @@ INSERT INTO `Products` (`ID`, `Name`, `Price`, `Stock`, `Category`, `Image`) VAL
 --
 
 --
--- Indexes for table `alogin`
+-- Indexes for table `ALOGIN`
 --
-ALTER TABLE `alogin`
+ALTER TABLE `ALOGIN`
   ADD PRIMARY KEY (`ADMIN_ID`);
 
 --
