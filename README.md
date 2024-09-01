@@ -1,5 +1,5 @@
 # Ice-Cream-Order-Site
-This project is hosted. To view webpage [click here](https://amulorder-project.infinityfreeapp.com/)
+* This project is hosted. To view webpage [click here](https://amulorder-project.infinityfreeapp.com/)
 
 * This website is not reponsive and best-viewed only on computer/large screen. I will try to optimize it for mobile-phones.
 
