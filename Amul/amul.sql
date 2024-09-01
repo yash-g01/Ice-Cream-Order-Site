@@ -75,10 +75,10 @@ CREATE TABLE `orders` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `products`
+-- Table structure for table `Products`
 --
 
-CREATE TABLE `products` (
+CREATE TABLE `Products` (
   `ID` int(10) NOT NULL,
   `Name` varchar(50) NOT NULL,
   `Price` varchar(4) NOT NULL,
@@ -88,10 +88,10 @@ CREATE TABLE `products` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `products`
+-- Dumping data for table `Products`
 --
 
-INSERT INTO `products` (`ID`, `Name`, `Price`, `Stock`, `Category`, `Image`) VALUES
+INSERT INTO `Products` (`ID`, `Name`, `Price`, `Stock`, `Category`, `Image`) VALUES
 (2, 'Cup Strawberry 65 mL', '10', 200, 'CUPS', '/uploadImage/Amul-Cup-Strawberry.jpg'),
 (3, 'Tricone Choco Crunch 120 mL', '35', 200, 'CONES', '/uploadImage/Choco-Crunch_with_transparent.png'),
 (4, 'Tricone Butterscotch 120 mL', '35', 200, 'CONES', '/uploadImage/Butterscotch_with_transparent.png'),
@@ -127,9 +127,9 @@ ALTER TABLE `orders`
   ADD PRIMARY KEY (`O_ID`);
 
 --
--- Indexes for table `products`
+-- Indexes for table `Products`
 --
-ALTER TABLE `products`
+ALTER TABLE `Products`
   ADD PRIMARY KEY (`ID`),
   ADD UNIQUE KEY `Name` (`Name`);
 
@@ -144,9 +144,9 @@ ALTER TABLE `orders`
   MODIFY `O_ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
--- AUTO_INCREMENT for table `products`
+-- AUTO_INCREMENT for table `Products`
 --
-ALTER TABLE `products`
+ALTER TABLE `Products`
   MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 COMMIT;
 
