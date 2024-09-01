@@ -28,10 +28,13 @@ If its not green, try changing the ports or server.
     User Login Credentials:\
         User ID = UserYash\
         Password = User12345\
+    
     Admin Login Credentials:\
         Admin_ID = AdminYash\
         Password = Admin123\
+    
     Passwords are Case-sensitive.\
+    
     Make sure to change the username and password to your MySQL username and password in the config files of [user](Amul/User/config.php) and [admin](Amul/admin/config.php).\
 
 Thank You for reading and testing out this Project.
