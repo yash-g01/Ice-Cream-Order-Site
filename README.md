@@ -2,7 +2,7 @@
 This project is hosted. To view webpage [click here](https://amulorder-project.infinityfreeapp.com/)
 
 ## How-to-locally-Setup-this-webpage
-You can Read the Step by Step Guide or [Watch this video for setup on MacOS](https://drive.google.com/file/d/19_y5y4lOnuoxrkn24Mx_bIagR2QZpqN-/view?usp=sharing) (video is just a showcase on how you can setup and doesn't have any audio. I will update the video if i get time and will also make it for Windows. :))
+You can Read the Step by Step Guide or [Watch this video for setup on MacOS](https://drive.google.com/file/d/19_y5y4lOnuoxrkn24Mx_bIagR2QZpqN-/view?usp=sharing) (video is just a showcase on how you can setup and doesn't have any audio. I will update the video if i get time and will also make it for Windows.)    :)
 1. Make sure to download XAMPP if you are Windows or MAMP if you are on MacOSX.
 
 2. [Download Zip of this repo](https://github.com/yash-g01/Ice-Cream-Order-Site/archive/refs/heads/main.zip) and extract it. Move "Amul" folder (Amul Folder is inside the unzipped folder) inside "htdocs" folder of XAMPP/MAMP download folder. In my case (C:\xampp\htdocs) or (/Applications/MAMP/htdocs).
