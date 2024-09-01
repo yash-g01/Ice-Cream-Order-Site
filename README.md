@@ -25,17 +25,13 @@ If its not green, try changing the ports or server.
 10. Now go to URL "localhost/Amul/User" on your browser.
 
 11. You can use these to login :
-
-User Login Credentials [You can create your own account too (No personal info needed)]:
-User ID = UserYash
-Password = User12345
-
-Admin Login Credentials:
-Admin_ID = AdminYash
-Password = Admin123
-
-Passwords are Case-sensitive.
-
-Make sure to change the username and password to your MySQL username and password in the config files of [user](Amul/User/config.php) and [admin](Amul/admin/config.php).
+    User Login Credentials:
+        User ID = UserYash
+        Password = User12345
+    Admin Login Credentials:
+        Admin_ID = AdminYash
+        Password = Admin123
+    Passwords are Case-sensitive.
+    Make sure to change the username and password to your MySQL username and password in the config files of [user](Amul/User/config.php) and [admin](Amul/admin/config.php).
 
 Thank You for reading and testing out this Project.
