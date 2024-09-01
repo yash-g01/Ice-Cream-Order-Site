@@ -1,6 +1,8 @@
 # Ice-Cream-Order-Site
 This project is hosted. To view webpage [click here](https://amulorder-project.infinityfreeapp.com/)
 
+* This website is not reponsive and best-viewed only on computer/large screen. I will try to optimize it for mobile-phones.
+
 ## How-to-locally-Setup-this-webpage
 You can Read the Step by Step Guide or [Watch this video for setup on MacOS](https://drive.google.com/file/d/19_y5y4lOnuoxrkn24Mx_bIagR2QZpqN-/view?usp=sharing) (video is just a showcase on how you can setup and doesn't have any audio. I will update the video if i get time and will also make it for Windows.)    :)
 1. Make sure to download XAMPP if you are Windows or MAMP if you are on MacOSX.
