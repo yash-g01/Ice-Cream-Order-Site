@@ -51,10 +51,10 @@ CREATE TABLE `LOGIN` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `login`
+-- Dumping data for table `LOGIN`
 --
 
-INSERT INTO `login` (`Username`, `Password`) VALUES
+INSERT INTO `LOGIN` (`Username`, `Password`) VALUES
 ('UserYash', '$2y$10$lFtopft4XsHwVTJ7kWsY0.dvPWGJYL.XVYmRolI8Reebaf41Euv/.');
 
 -- --------------------------------------------------------
